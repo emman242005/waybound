@@ -10,7 +10,7 @@ import {
   updateShipmentAction,
   addTrackingEventAction,
   deleteShipmentAction,
-} from "@/app/admin/shipments/actions";
+} from "@/app/admin/(protected)/shipments/actions";
 
 export default async function ShipmentDetailPage({
   params,

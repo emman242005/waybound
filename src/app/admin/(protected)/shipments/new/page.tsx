@@ -1,5 +1,5 @@
 import ShipmentForm from "@/components/ShipmentForm";
-import { createShipmentAction } from "@/app/admin/shipments/actions";
+import { createShipmentAction } from "@/app/admin/(protected)/shipments/actions";
 
 export default function NewShipmentPage() {
   return (

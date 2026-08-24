@@ -18,7 +18,7 @@ export async function createShipmentAction(formData: FormData) {
     customer_phone: String(formData.get("customer_phone") || ""),
     origin: String(formData.get("origin") || ""),
     destination: String(formData.get("destination") || ""),
-    current_location: String(formData.get("origin") || ""), // starts at origin
+    current_location: String(formData.get("origin") || ""),
     package_type: String(formData.get("package_type") || ""),
     weight: formData.get("weight") ? Number(formData.get("weight")) : undefined,
     estimated_delivery: String(formData.get("estimated_delivery") || "") || undefined,
